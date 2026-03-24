@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>NewHSKEvents</name>
+	<author>HSK Team</author>
+	<url>https://github.com/skyarkhangel/Hardcore-SK</url>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<packageId>hsk.newhskevents</packageId>
+	<description>
+[English]
+Adds new events for Hardcore SK modpack.
+- Curious Animals: A herd of animals has taken an interest in your colonists and settled near the colony for a couple of days, curiously watching the settlers go about their lives before eventually wandering off.
+- Wild Bird Attack: Flocks of aggressive birds swoop in from three sides, diving at colonists, attacking, then flying to new positions to strike again.
+- Straw Fire: Someone left a piece of glass near straw matting and the sun ignited it.
+- Cabin Fever Animals: Animals kept in a closed room too long suddenly go rabid and attack everything.
+- Animal Snap: One of your small tame animals suddenly becomes aggressive and attacks a nearby animal.
+- Crop Mineral Deficiency: If you have too few tame animals, crops die from lack of natural fertilization.
+
+[Russian]
+Добавляет новые события для модпака Hardcore SK.
+- Любопытные животные: стадо животных заинтересовалось вашими колонистами и обосновалось неподалёку на пару дней, с любопытством наблюдая за жизнью поселенцев, прежде чем уйти восвояси.
+- Нападение диких птиц: стаи агрессивных птиц налетают с трёх сторон, пикируют на колонистов, атакуют и перелетают на новые позиции для повторной атаки.
+- Пожар на соломе: кто-то оставил рядом с соломенным покрытием что-то стеклянное — солнце подожгло солому.
+- Бешенство взаперти: животные, которых долго держат в закрытом помещении, внезапно впадают в бешенство.
+- Взбесившееся животное: одно из ваших мелких домашних животных внезапно стало агрессивным и напало на ближайшее животное.
+- Нехватка минералов: если у вас мало домашних животных, урожай гибнет из-за нехватки естественного удобрения.
+	</description>
+	<modDependencies>
+	</modDependencies>
+	<loadBefore>
+	</loadBefore>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+	</loadAfter>
+	<incompatibleWith>
+	</incompatibleWith>
+</ModMetaData>

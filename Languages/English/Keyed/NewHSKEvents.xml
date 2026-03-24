@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<NewHSKEvents_HerdStay_LetterLabel>Curious animals: {0}</NewHSKEvents_HerdStay_LetterLabel>
+	<NewHSKEvents_HerdStay_LetterText>A herd of {0} has taken an interest in your colonists and settled nearby for a couple of days, curiously watching the settlers go about their lives.\n\nThey won't attack unless provoked. This is a good opportunity for hunting or taming.</NewHSKEvents_HerdStay_LetterText>
+	<NewHSKEvents_BirdAttack_LetterLabel>Trained bird attack: {0}</NewHSKEvents_BirdAttack_LetterLabel>
+	<NewHSKEvents_BirdAttack_LetterText>{0} has unleashed trained {1} on your colony! The birds are swooping in from three directions, diving at your colonists before regrouping for another strike.\n\nDefend the colony!</NewHSKEvents_BirdAttack_LetterText>
+	<NewHSKEvents_StrawFire_LetterLabel>Straw fire!</NewHSKEvents_StrawFire_LetterLabel>
+	<NewHSKEvents_StrawFire_LetterText>Someone left a piece of glass near the straw matting. The sun's rays reflected off it and ignited the dry straw!\n\nPut out the fire before it spreads!</NewHSKEvents_StrawFire_LetterText>
+	<HSK_CabinFeverLabel>Sudden animal rabies!</HSK_CabinFeverLabel>
+	<HSK_CabinFeverDesc>Your animals have been cooped up indoors for too long! {0} of them have gone into a sudden rage, attacking everything in sight.\n\nLet your animals outside regularly to prevent this!</HSK_CabinFeverDesc>
+	<HSK_AnimalSnapLabel>{0} snapped!</HSK_AnimalSnapLabel>
+	<HSK_AnimalSnapDesc>{0} ({1}) suddenly became aggressive and attacked a nearby animal! Something must have set it off.\n\nKeep an eye on the situation.</HSK_AnimalSnapDesc>
+	<HSK_CropBoostLabel>Fertile soil!</HSK_CropBoostLabel>
+	<HSK_CropBoostDesc>Thanks to your {1} tame animals, the soil has been naturally enriched with minerals from their manure. Your crops are thriving!\n\n{0} plants received a significant growth boost.</HSK_CropBoostDesc>
+	<HSK_CropDeficiencyLabel>Crop mineral deficiency!</HSK_CropDeficiencyLabel>
+	<HSK_CropDeficiencyDesc>Your crops have begun to wither from a rare mineral deficiency! The soil lacks essential nutrients that are normally replenished by animal manure.\n\n{0} plants have died. You currently have only {1} tame animals — consider keeping more livestock to naturally fertilize the land.</HSK_CropDeficiencyDesc>
+</LanguageData>

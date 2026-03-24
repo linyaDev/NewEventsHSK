@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<NewHSKEvents_HerdStay_LetterLabel>Любопытные животные: {0}</NewHSKEvents_HerdStay_LetterLabel>
+	<NewHSKEvents_HerdStay_LetterText>Стадо {0} заинтересовалось вашими колонистами и обосновалось неподалёку на пару дней, с любопытством наблюдая за жизнью поселенцев.\n\nОни не нападут, если их не провоцировать. Хорошая возможность для охоты или приручения.</NewHSKEvents_HerdStay_LetterText>
+	<NewHSKEvents_BirdAttack_LetterLabel>Атака натренированных птиц: {0}</NewHSKEvents_BirdAttack_LetterLabel>
+	<NewHSKEvents_BirdAttack_LetterText>{0} выпустили на вашу колонию натренированных {1}! Птицы налетают с трёх сторон, пикируют на колонистов и перегруппировываются для повторной атаки.\n\nЗащитите колонию!</NewHSKEvents_BirdAttack_LetterText>
+	<NewHSKEvents_StrawFire_LetterLabel>Пожар на соломе!</NewHSKEvents_StrawFire_LetterLabel>
+	<NewHSKEvents_StrawFire_LetterText>Кто-то оставил рядом с соломенным покрытием что-то стеклянное. Солнечные лучи отразились от стекла и подожгли сухую солому!\n\nПотушите огонь, пока он не распространился!</NewHSKEvents_StrawFire_LetterText>
+	<HSK_CabinFeverLabel>Внезапное бешенство животных!</HSK_CabinFeverLabel>
+	<HSK_CabinFeverDesc>Ваши животные слишком долго сидели взаперти! {0} из них впали в бешенство и нападают на всё вокруг.\n\nВыпускайте животных на улицу, чтобы этого не происходило!</HSK_CabinFeverDesc>
+	<HSK_AnimalSnapLabel>{0} взбесился!</HSK_AnimalSnapLabel>
+	<HSK_AnimalSnapDesc>{0} ({1}) внезапно стал агрессивным и напал на ближайшее животное! Что-то его спровоцировало.\n\nСледите за ситуацией.</HSK_AnimalSnapDesc>
+	<HSK_CropBoostLabel>Плодородная почва!</HSK_CropBoostLabel>
+	<HSK_CropBoostDesc>Благодаря вашим {1} домашним животным почва естественным образом обогатилась минералами из навоза. Ваш урожай процветает!\n\n{0} растений получили значительный прирост роста.</HSK_CropBoostDesc>
+	<HSK_CropDeficiencyLabel>Нехватка минералов в почве!</HSK_CropDeficiencyLabel>
+	<HSK_CropDeficiencyDesc>Ваш урожай начал гибнуть из-за редкой болезни — нехватки минералов в почве! Земле не хватает питательных веществ, которые обычно восполняются навозом животных.\n\nПогибло растений: {0}. У вас всего {1} домашних животных — заведите больше скота для естественного удобрения земли.</HSK_CropDeficiencyDesc>
+</LanguageData>

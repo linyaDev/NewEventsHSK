@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<IncidentDef>
+		<defName>HSK_HerdMigrationStay</defName>
+		<label>curious animals</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>NewHSKEvents.IncidentWorker_HerdMigrationStay</workerClass>
+		<baseChance>1.0</baseChance>
+		<minRefireDays>12</minRefireDays>
+		<earliestDay>15</earliestDay>
+		<letterLabel>NewHSKEvents_HerdStay_LetterLabel</letterLabel>
+		<letterText>NewHSKEvents_HerdStay_LetterText</letterText>
+		<letterDef>PositiveEvent</letterDef>
+	</IncidentDef>
+
+	<IncidentDef>
+		<defName>HSK_BirdAttack</defName>
+		<label>trained bird attack</label>
+		<category>ThreatBig</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>NewHSKEvents.IncidentWorker_BirdAttack</workerClass>
+		<baseChance>0.8</baseChance>
+		<minRefireDays>15</minRefireDays>
+		<earliestDay>25</earliestDay>
+		<pointsScaleable>true</pointsScaleable>
+		<letterDef>ThreatBig</letterDef>
+	</IncidentDef>
+
+	<IncidentDef>
+		<defName>HSK_StrawFire</defName>
+		<label>straw fire</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>NewHSKEvents.IncidentWorker_StrawFire</workerClass>
+		<baseChance>0.6</baseChance>
+		<minRefireDays>20</minRefireDays>
+		<earliestDay>10</earliestDay>
+		<letterDef>NegativeEvent</letterDef>
+	</IncidentDef>
+
+	<IncidentDef>
+		<defName>HSK_CabinFeverAnimals</defName>
+		<label>cabin fever animals</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>NewHSKEvents.IncidentWorker_CabinFeverAnimals</workerClass>
+		<baseChance>0.7</baseChance>
+		<minRefireDays>15</minRefireDays>
+		<earliestDay>20</earliestDay>
+		<letterDef>ThreatSmall</letterDef>
+	</IncidentDef>
+
+	<IncidentDef>
+		<defName>HSK_AnimalSnap</defName>
+		<label>animal snap</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>NewHSKEvents.IncidentWorker_AnimalSnap</workerClass>
+		<baseChance>0.8</baseChance>
+		<minRefireDays>10</minRefireDays>
+		<earliestDay>20</earliestDay>
+		<letterDef>NegativeEvent</letterDef>
+	</IncidentDef>
+
+	<IncidentDef>
+		<defName>HSK_CropMineralDeficiency</defName>
+		<label>crop mineral deficiency</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>NewHSKEvents.IncidentWorker_CropMineralDeficiency</workerClass>
+		<baseChance>0.9</baseChance>
+		<minRefireDays>20</minRefireDays>
+		<earliestDay>30</earliestDay>
+		<letterDef>NegativeEvent</letterDef>
+	</IncidentDef>
+
+</Defs>
