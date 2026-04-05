@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<IncidentDef>
+		<defName>HSK_BirdAttack</defName>
+		<label>trained bird attack</label>
+		<category>ThreatBig</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>NewHSKEvents.IncidentWorker_BirdAttack</workerClass>
+		<baseChance>0.8</baseChance>
+		<minRefireDays>15</minRefireDays>
+		<earliestDay>25</earliestDay>
+		<pointsScaleable>true</pointsScaleable>
+		<letterDef>ThreatBig</letterDef>
+	</IncidentDef>
+</Defs>

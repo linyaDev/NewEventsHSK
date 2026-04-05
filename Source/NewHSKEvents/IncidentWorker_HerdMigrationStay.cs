@@ -72,7 +72,11 @@ namespace NewHSKEvents
                           && map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(k.race)
                     select k)
                 .TryRandomElementByWeight(
+#if V15
+                    x => Mathf.Lerp(0.2f, 1f, x.RaceProps.wildness),
+#else
                     x => Mathf.Lerp(0.2f, 1f, x.race.GetStatValueAbstract(StatDefOf.Wildness)),
+#endif
                     out animalKind);
         }
 

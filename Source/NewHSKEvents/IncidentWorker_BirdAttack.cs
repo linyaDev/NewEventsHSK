@@ -71,8 +71,10 @@ namespace NewHSKEvents
                     IntVec3 loc = CellFinder.RandomClosewalkCellNear(spawnCenter, map, 8);
                     GenSpawn.Spawn(bird, loc, map, rot);
 
+#if !V15
                     // Force native 1.6 flight animation
                     bird.flight?.StartFlying();
+#endif
 
                     groupBirds.Add(bird);
                 }

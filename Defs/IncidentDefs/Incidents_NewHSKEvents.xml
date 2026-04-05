@@ -17,22 +17,7 @@
 		<letterDef>PositiveEvent</letterDef>
 	</IncidentDef>
 
-	<IncidentDef>
-		<defName>HSK_BirdAttack</defName>
-		<label>trained bird attack</label>
-		<category>ThreatBig</category>
-		<targetTags>
-			<li>Map_PlayerHome</li>
-		</targetTags>
-		<workerClass>NewHSKEvents.IncidentWorker_BirdAttack</workerClass>
-		<baseChance>0.8</baseChance>
-		<minRefireDays>15</minRefireDays>
-		<earliestDay>25</earliestDay>
-		<pointsScaleable>true</pointsScaleable>
-		<letterDef>ThreatBig</letterDef>
-	</IncidentDef>
-
-	<IncidentDef>
+<IncidentDef>
 		<defName>HSK_StrawFire</defName>
 		<label>straw fire</label>
 		<category>Misc</category>

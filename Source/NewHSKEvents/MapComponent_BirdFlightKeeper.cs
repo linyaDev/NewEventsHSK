@@ -56,7 +56,9 @@ namespace NewHSKEvents
                     continue;
                 }
 
+#if !V15
                 bird.flight?.StartFlying();
+#endif
                 boostCounts[bird]++;
             }
         }
