@@ -14,6 +14,16 @@ namespace NewHSKEvents
         protected override bool CanFireNowSub(IncidentParms parms)
         {
             Map map = (Map)parms.target;
+
+            // Only during daylight (sun ignites straw)
+            float dayPercent = GenLocalDate.DayPercent(map);
+            if (dayPercent < 0.25f || dayPercent > 0.75f)
+                return false;
+
+            // Only in clear weather (needs sunlight)
+            if (map.weatherManager.curWeather != WeatherDefOf.Clear)
+                return false;
+
             return TryFindStrawCell(map, out _);
         }
 
