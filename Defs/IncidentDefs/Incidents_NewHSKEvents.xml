@@ -73,4 +73,18 @@
 		<letterDef>NegativeEvent</letterDef>
 	</IncidentDef>
 
+	<IncidentDef>
+		<defName>HSK_MineGasLeak</defName>
+		<label>mine gas leak</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>NewHSKEvents.IncidentWorker_MineGasLeak</workerClass>
+		<baseChance>0.7</baseChance>
+		<minRefireDays>30</minRefireDays>
+		<earliestDay>30</earliestDay>
+		<letterDef>ThreatSmall</letterDef>
+	</IncidentDef>
+
 </Defs>

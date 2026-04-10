@@ -14,4 +14,6 @@
 	<HSK_CropBoostDesc>Thanks to your {1} tame animals, the soil has been naturally enriched with minerals from their manure. Your crops are thriving!\n\n{0} plants received a significant growth boost.</HSK_CropBoostDesc>
 	<HSK_CropDeficiencyLabel>Crop mineral deficiency!</HSK_CropDeficiencyLabel>
 	<HSK_CropDeficiencyDesc>Your crops have begun to wither from a rare mineral deficiency! The soil lacks essential nutrients that are normally replenished by animal manure.\n\n{0} plants have died. You currently have only {1} tame animals — consider keeping more livestock to naturally fertilize the land.</HSK_CropDeficiencyDesc>
+	<NewHSKEvents_MineGasLeak_LetterLabel>Mine gas leak!</NewHSKEvents_MineGasLeak_LetterLabel>
+	<NewHSKEvents_MineGasLeak_LetterText>A pocket of trapped gas has ruptured deep within the mountain! Toxic fumes are seeping into {0} underground rooms.\n\nEvacuate the affected areas immediately!</NewHSKEvents_MineGasLeak_LetterText>
 </LanguageData>
