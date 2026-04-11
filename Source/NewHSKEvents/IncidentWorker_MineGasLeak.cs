@@ -7,7 +7,7 @@ namespace NewHSKEvents
 {
     public class IncidentWorker_MineGasLeak : IncidentWorker
     {
-        private const int MinRoomSize = 60;
+        private const int MinRoomSize = 30;
         private const int MinRooms = 2;
         private const int MaxRooms = 3;
         private const int GasDensity = 150;
