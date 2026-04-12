@@ -14,6 +14,6 @@
 	<HSK_CropBoostDesc>Благодаря вашим {1} домашним животным почва естественным образом обогатилась минералами из навоза. Ваш урожай процветает!\n\n{0} растений получили значительный прирост роста.</HSK_CropBoostDesc>
 	<HSK_CropDeficiencyLabel>Нехватка минералов в почве!</HSK_CropDeficiencyLabel>
 	<HSK_CropDeficiencyDesc>Ваш урожай начал гибнуть из-за редкой болезни — нехватки минералов в почве! Земле не хватает питательных веществ, которые обычно восполняются навозом животных.\n\nПогибло растений: {0}. У вас всего {1} домашних животных — заведите больше скота для естественного удобрения земли.</HSK_CropDeficiencyDesc>
-	<NewHSKEvents_MineGasLeak_LetterLabel>Утечка шахтного газа!</NewHSKEvents_MineGasLeak_LetterLabel>
-	<NewHSKEvents_MineGasLeak_LetterText>Карман с газом лопнул глубоко в толще горы! Ядовитые испарения просачиваются в {0} подземных помещений.\n\nНемедленно эвакуируйте пострадавшие зоны!</NewHSKEvents_MineGasLeak_LetterText>
+	<NewHSKEvents_MineGasLeak_LetterLabel>Выброс подземного газа!</NewHSKEvents_MineGasLeak_LetterLabel>
+	<NewHSKEvents_MineGasLeak_LetterText>Газовый карман лопнул глубоко в толще горы! Ядовитые испарения заполняют {0} подземных помещений.\n\nНемедленно эвакуируйте пострадавшие зоны!</NewHSKEvents_MineGasLeak_LetterText>
 </LanguageData>
